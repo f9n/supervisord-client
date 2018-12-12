@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "supervisord-client"
+version = "0.1.0"
+description = "Client library for Supervisord's XML-RPC interface http://supervisord.org/api.html"
+readme = "README.md"
+authors = ["Fatih Sarhan <f9n@protonmail.com>"]
+homepage = "https://github.com/f9n/supervisord-client"
+repository = "https://github.com/f9n/supervisord-client"
+
+[tool.poetry.dependencies]
+python = "^3.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+black = { version = "^18.9b0", python = "^3.6" }
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
